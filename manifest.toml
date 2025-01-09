@@ -3,7 +3,7 @@
 packaging_format = 2
 
 id = "webdav"
-name = "webdav"
+name = "WebDAV"
 description.en = "Simple and standalone WebDAV server"
 description.fr = "Serveur WebDAV simple et autonome"
 
@@ -13,10 +13,6 @@ maintainers = ["eric_G"]
 
 [upstream]
 license = "MIT"
-website = "https://example.com"
-demo = "https://demo.example.com"
-admindoc = "https://yunohost.org/packaging_apps"
-userdoc = "https://yunohost.org/apps"
 code = "https://github.com/hacdias/webdav"
 
 [integration]

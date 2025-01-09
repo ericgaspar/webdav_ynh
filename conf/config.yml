@@ -1,4 +1,4 @@
-address: 0.0.0.0
+address: 127.0.0.1
 port: __PORT__
 
 # TLS-related settings if you want to enable TLS directly.

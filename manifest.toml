@@ -50,7 +50,6 @@ ram.runtime = "50M"
     in_subdir = false
     url = "https://github.com/hacdias/webdav/releases/download/v5.7.1/linux-amd64-webdav.tar.gz"
     sha256 = "0bbec3498aec371dd7619b0721b020086ba3cb4ddd0d9f5ad3550a33e01c1e8f"
-
     # autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]

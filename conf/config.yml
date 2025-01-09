@@ -80,29 +80,6 @@ cors:
 # noPassword: true
 users:
   # Example 'admin' user with plaintext password.
-  - username: admin
-    password: admin
-  # Example 'john' user with bcrypt encrypted password, with custom directory.
-  # You can generate a bcrypt-encrypted password by using the 'webdav bcrypt'
-  # command lint utility.
-  - username: john
-    password: "{bcrypt}$2y$10$zEP6oofmXFeHaeMfBNLnP.DO8m.H.Mwhd24/TOX2MWLxAExXi4qgi"
-    directory: /another/path
-  # Example user whose details will be picked up from the environment.
-  - username: "{env}ENV_USERNAME"
-    password: "{env}ENV_PASSWORD"
-  - username: basic
-    password: basic
-    # Override default permissions.
-    permissions: CRUD
-    rules:
-      # With this rule, the user CANNOT access /some/files.
-      - path: /some/file
-        permissions: none
-      # With this rule, the user CAN create, read, update and delete within /public/access.
-      - path: /public/access/
-        permissions: CRUD
-      # With this rule, the user CAN read and update all files ending with .js. It uses
-      # a regular expression.
-      - regex: "^.+.js$"
-        permissions: RU
+  - username: __ADMIN__
+    password: __PASSWORD__
+    directory: __DATA_DIR__
